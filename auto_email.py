@@ -5,10 +5,10 @@ from email.mime.image import MIMEImage
 from email.mime.multipart import MIMEMultipart
 
 
-FROM_ADDR = 'tianychen21@m.fudan.edu.cn'
-PSWD = 'Cty131800'
-TO_ADDR = 'tianychen21@m.fudan.edu.cn'
-SMTP_SERVER = 'smtp.exmail.qq.com'
+FROM_ADDR = 'email@address'
+PSWD = 'pswd'
+TO_ADDR = 'xxxxxx'
+SMTP_SERVER = 'xxxxxx'
 
 
 class EmailSender():
